@@ -1,9 +1,40 @@
+import java.util.HashMap;
+import java.util.Scanner;
 
 public class Main {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Projeto criado!");
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Digite o valor inicial: ");
+		int primeiroValor = sc.nextInt();
+		
+		System.out.print("Digite o valor final: ");
+		int ultimoValor = sc.nextInt();
+		
+		HashMap<Integer, Integer> numerosCalculados = new HashMap<>();
+		
+		externo : for(int i = primeiroValor; i <= ultimoValor; i++) {
+			
+			if(i == 1) {
+				numerosCalculados.put(i, 1);
+				continue;
+			}
+			
+			int totalDivisores = 2;
+			
+			interno : for(int j = 2; j < i; j++) {
+				if(i % j == 0) {
+					totalDivisores++;
+				} // fim if
+			} // fim loop interno
+			
+			numerosCalculados.put(i, totalDivisores);
+		} // fim loop externo
+		
+		System.out.println(numerosCalculados.toString());
+		sc.close();
 	}
 
 }
