@@ -15,18 +15,22 @@ Este é um projeto simples em Java que calcula a quantidade de divisores de cada
 
 ## 📦 Como executar o projeto
 
-```bash
-# Clone o repositório
-git clone git@github.com:Caio-Miranda0/Circunferencia.git
+1. Clone o repositório:
 
-# Acesse a pasta do projeto
-cd nome-do-repositorio
+   ```bash
+   git clone git@github.com:Caio-Miranda0/Circunferencia.git
+   
+2. Acesse a pasta do projeto
+  ```bash 
+  cd Circunferencia
 
-# Compile o código
-javac Main.java
+3. Compile o programa
+  ```bash
+  javac Main.java
 
-# Execute o programa
-java Main
+4. Execute o programa:
+  ```bash
+  java Main
 
 📋 Exemplo de uso
 Digite o valor inicial: 5
