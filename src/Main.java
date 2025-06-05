@@ -33,7 +33,18 @@ public class Main {
 			numerosCalculados.put(i, totalDivisores);
 		} // fim loop externo
 		
-		System.out.println(numerosCalculados.toString());
+		int numeroComMaisDivisores = 0;
+		int quantidadeDivisores = 0;
+		for(Integer valor : numerosCalculados.keySet()) {
+			System.out.println("Número: " + valor + " Quantidade de divisores: " + numerosCalculados.get(valor));
+			if(numerosCalculados.get(valor) > quantidadeDivisores) {
+				numeroComMaisDivisores = valor;
+				quantidadeDivisores = numerosCalculados.get(valor);
+			}
+		}
+		
+		System.out.println("De " + primeiroValor + " até " + ultimoValor + ", o primeiro número encontrado com mais divisores que os anteriores foi:");
+		System.out.println(numeroComMaisDivisores + " (" +numerosCalculados.get(numeroComMaisDivisores)+" divisores).");
 		sc.close();
 	}
 
