@@ -25,7 +25,7 @@ javac Main.java
 
 3. Execute o programa java
 java Main
-```bash
+bash´´´
 ## 📋 Exemplo de uso
 Digite o valor inicial: 5
 Digite o valor final: 10
