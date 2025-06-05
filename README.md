@@ -26,7 +26,7 @@ javac Main.java
 3. Execute o programa java
 java Main
 
-📋 Exemplo de uso
+## 📋 Exemplo de uso
 Digite o valor inicial: 5
 Digite o valor final: 10
 
@@ -42,7 +42,7 @@ Número: 10 Quantidade de divisores: 4
 De 5 até 10, o primeiro número encontrado com mais divisores que os anteriores foi:
 6 (4 div.)
 
-🛠️ Melhorias futuras (opcional)
+## 🛠️ Melhorias futuras (opcional)
 Implementar uma interface gráfica (GUI).
 
 Otimizar o cálculo dos divisores.
