@@ -11,17 +11,21 @@ Este é um projeto simples em Java que calcula a quantidade de divisores de cada
 ## 💻 Tecnologias
 
 - Java (console)
-- JDK 22
+- JDK 8 ou superior
 
 ## 📦 Como executar o projeto
 
-1. Clone o repositório:
+```bash
+# Clone o repositório
 git clone git@github.com:Caio-Miranda0/Circunferencia.git
 
-2. Compile o arquivo
+# Acesse a pasta do projeto
+cd nome-do-repositorio
+
+# Compile o código
 javac Main.java
 
-4. Execute o programa java
+# Execute o programa
 java Main
 
 ## 📋 Exemplo de uso
@@ -40,10 +44,9 @@ Número: 10 Quantidade de divisores: 4
 De 5 até 10, o primeiro número encontrado com mais divisores que os anteriores foi:
 6 (4 div.)
 
-## 🛠️ Melhorias futuras (opcional)
+## 🛠️ Melhorias futuras
 Implementar uma interface gráfica (GUI).
 
 Otimizar o cálculo dos divisores.
 
 Adicionar tratamento de erros para entradas inválidas.
-
